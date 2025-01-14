@@ -1,5 +1,5 @@
 inputs:
-  map_image: "map.jpg"
+  map_image: "map_inpainting.png"
   legend_image: "legend_04_inpaint.jpg"
 output:
   similarity_heatmap: "similarity_heatmap.png"
