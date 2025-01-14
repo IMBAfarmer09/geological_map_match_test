@@ -1,0 +1,15 @@
+inputs:
+  map_image: "map.jpg"
+  legend_image: "legend_04_inpaint.jpg"
+output:
+  similarity_heatmap: "similarity_heatmap.png"
+  prediction_mask: "prediction_mask.png"
+  heatmap_overlay: "heatmap_overlay_bw.png"
+  mask_overlay: "mask_overlay_bw.png"
+  similarity_distribution: "similarity_distribution.png"
+parameters:
+  stride: 1
+  threshold: 0.65
+  min_area: 50
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
